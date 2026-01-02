@@ -30,4 +30,27 @@ git branch -a: Lists both local and remote-tracking branches [1].
 1. git branch feature-login ==> Create a new branch
 2. git checkout feature-login / git switch feature-login ==> Switch to a branch
 
+
+
+🧪 Working example (real workflow)
+Step 1: Start from main
+git checkout main
+git pull
+
+Step 2: Create feature branch
+git checkout -b feature-url-validation
+
+Step 3: Work & commit
+git add .
+git commit -m "Add URL validation"
+
+Step 4: Merge back to main
+git checkout main
+git merge feature-url-validation
+
+🔀 What is merging?
+
+Merging combines changes from one branch into another.
+
+main  ←  feature-branch
 """
