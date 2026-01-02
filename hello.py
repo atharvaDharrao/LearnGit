@@ -25,4 +25,9 @@ git branch -a: Lists both local and remote-tracking branches [1].
 [1] What is branch in Git ?
 ==> A branch is an independent line of development.
 ==> A separate workspace where you can work without breaking the main code.
+
+**Imp Commands**
+1. git branch feature-login ==> Create a new branch
+2. git checkout feature-login / git switch feature-login ==> Switch to a branch
+
 """
