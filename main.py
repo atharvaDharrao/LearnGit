@@ -6,3 +6,4 @@ print("Third line in main file")
 
 print("--------AAAAAAA-----------")
 
+print("--------BBBBBBB-----------")
